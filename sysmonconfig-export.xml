@@ -231,6 +231,7 @@
 			<CommandLine condition="end with">"ps1-ninjascript.bat" --type=</CommandLine> <!--Ninja: RMM: very noisy-->
 			<CommandLine condition="end with">"NinjaRMMAgent.exe" --type=</CommandLine> <!--Ninja: RMM: very noisy-->
 			<CommandLine condition="contains">"NinjaRMMAgent" --type=</CommandLine> <!--Ninja:RMM: very noisy-->
+			<CommandLine condition="contains">"ninja" --type=</CommandLine> <!--Ninja:RMM: very noisy-->
 		</ProcessCreate>
 	</RuleGroup>
 
