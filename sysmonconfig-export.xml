@@ -110,6 +110,7 @@
 			<Image condition="is">C:\Windows\system32\sppsvc.exe</Image> <!--Windows: Software Protection Service-->
 			<Image condition="is">C:\Windows\system32\wbem\WmiApSrv.exe</Image> <!--Windows: WMI performance adapter host process-->
 			<Image condition="is">C:\Program Files\ESET\ESET Security\eRmm.exe</Image> <!--ESET Monitoring-->
+			<Image condition="is">C:\ProgramData\ESET\eRMMI\bin\ermmi.exe</Image> <!--ESET Monitoring-->
 			<IntegrityLevel condition="is">AppContainer</IntegrityLevel> <!--Windows: Don't care about sandboxed processes right now. Will need to revisit this decision.-->
 			<ParentCommandLine condition="begin with">%%SystemRoot%%\system32\csrss.exe ObjectDirectory=\Windows</ParentCommandLine> <!--Windows:CommandShell: Triggered when programs use the command shell, but doesn't provide attribution for what caused it-->
 			<ParentCommandLine condition="is">C:\windows\system32\wermgr.exe -queuereporting</ParentCommandLine> <!--Windows:Windows error reporting/telemetry-->
